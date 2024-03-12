@@ -1,0 +1,112 @@
+
+  
+  
+  .calculator {
+    border: 2px solid rgb(183, 155, 155);
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: #8f8f8f;
+  }
+  
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    animation: changeBgColor 5s infinite; 
+  }
+  
+  .display {
+    width: 92%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #ebe4e4;
+  }
+  
+  .keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+  }
+  
+  button {
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #000000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 1px solid rgb(255, 255, 255);
+    color: #ffffff;
+  }
+  
+  button:hover {
+    background-color: #8f8f8f;
+  }
+  body{
+    background-image: linear-gradient(to right, #515170, #6b434d);
+}
+
+
+.Custom {
+  display: flex;
+  justify-content: center;
+  
+  }
+  
+  .Login {
+  display: flex;
+  justify-content: center;
+  color: rgb(42, 42, 44);
+  
+  }
+  .uname input[type="text"],
+  .Psw input[type="password"] {
+      width: 90%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 5px;
+      background-image: linear-gradient(to center, #000000, #ffffff);
+      color: rgb(0, 0, 0); 
+      margin-right: 20px;
+  }
+  
+  
+  .Button {
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  
+  }
+  
+  .Button button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  }
+  
+  .Border {
+  max-width: 300px;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 3px;
+  animation: changeBgColor 5s infinite;
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  }
+  
+  
+  .Border :hover{
+  transition: all 1s ease-in-out;
+  border-radius: 5%;
+  }
